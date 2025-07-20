@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+}
+
+.clash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 4rem;
+}
+
+.clashresult{
+    font-size: 20px;
+}
+
+.player1selection,.player2selection{
+     padding: 2rem;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 10px;
+    background-color:beige;
+}
+
+.optionflex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+}
+
+.options{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.options button{
+    padding: 1rem;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.options button:hover{
+    box-shadow: 0 0 10px black;
+}
+
+.btnflex{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-top: 4rem;
+}
+
+.btnflex button{
+    padding: 1rem;
+    border: 0;
+    border-radius: 20px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+.btnflex button:hover{
+     box-shadow: 0 0 10px black;
+     background-color:beige;
+     font-weight: bold;
+}
